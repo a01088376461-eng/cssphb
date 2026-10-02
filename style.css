@@ -1,0 +1,45 @@
+*{
+  font-family:굴림체;
+}
+
+
+h1{color:blue;
+        background-color:yellow;
+        border:2px solid red;
+        padding:20px;
+        border-radius:
+          50px;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+h1:hover{
+  background-color:green;
+}
+
+h1:#next:hover{
+  backgruond=color:yellow;
+}
+
+
+      p{
+        font-meight:bold;
+        text-align:center;
+       }
+      li { 
+        text-decoration:underline;
+
+        #next{background-color:skyblue;}
+        #later{color:purple;}
+        .inner{
+          text-decoration:none;
+          color:blue;
+        }
+       #later, .inner{
+         font-meight:bold;
+       }
+
+
+        h3 div{color:red;}
+        h3 >div {
+          color:oliver;
+        }
+        
